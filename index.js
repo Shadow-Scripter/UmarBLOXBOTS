@@ -96,7 +96,7 @@ client.on('message', async message => {
 
 	if (command === 'owner') {
 		message.channel.send('Bot is made by UMAR KHORAMI!');
-	} // sends owo
+	} // sends owner
 
 	if (command === 'ping') {
 		// let ping = message.createdTimeStamp - message.createdTimeStamp;
