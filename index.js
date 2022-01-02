@@ -59,7 +59,7 @@ client.on('message', async message => {
 			)
 			.addField('!level', 'Check your level!')
 			.addField('Fun', 'some entertaining commands!')
-			.addField('!owo', 'uwu')
+			.addField('!owner', 'Umar Khorami')
 			.addField('!meme', 'sends a meme duh')
 			.addField('Others', 'other commands')
 			.addField('!invite', 'invite the bot!')
@@ -68,7 +68,7 @@ client.on('message', async message => {
 	} // sends a help embed
 
 	if (command === 'invite') {
-		message.channel.send('<discord bot invite link>');
+		message.channel.send('https://discord.com/api/oauth2/authorize?client_id=871222812734521354&permissions=8&scope=bot');
 	} // sends a bot invite link
 
 	if (command === 'kick') {
@@ -94,8 +94,8 @@ client.on('message', async message => {
 		}
 	} // same thing as the kick lol
 
-	if (command === 'owo') {
-		message.channel.send('owo!');
+	if (command === 'owner') {
+		message.channel.send('Bot is made by UMAR KHORAMI!');
 	} // sends owo
 
 	if (command === 'ping') {
